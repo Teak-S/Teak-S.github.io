@@ -5,12 +5,12 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://teak-s.github.io/"/>
   <updated>2019-03-15T15:07:06.781Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://teak-s.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Teak-S</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test_my_life</title>
-    <link href="http://yoursite.com/2019/03/15/test-my-life/"/>
-    <id>http://yoursite.com/2019/03/15/test-my-life/</id>
+    <link href="https://teak-s.github.io/2019/03/15/test-my-life/"/>
+    <id>https://teak-s.github.io/2019/03/15/test-my-life/</id>
     <published>2019-03-15T15:07:06.000Z</published>
     <updated>2019-03-15T15:07:06.781Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/03/15/hello-world/"/>
-    <id>http://yoursite.com/2019/03/15/hello-world/</id>
+    <link href="https://teak-s.github.io/2019/03/15/hello-world/"/>
+    <id>https://teak-s.github.io/2019/03/15/hello-world/</id>
     <published>2019-03-15T14:49:15.433Z</published>
     <updated>2019-03-15T14:49:15.433Z</updated>
     
