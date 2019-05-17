@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>test_my_life</title>
-      <link href="/2019/03/15/test-my-life/"/>
-      <url>/2019/03/15/test-my-life/</url>
+      <title>Markdown基础语法学习</title>
+      <link href="/2019/03/15/Markdown/"/>
+      <url>/2019/03/15/Markdown/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>Markdown是一种轻量级标记语言，以纯文本形式编写文档，并最终以html格式发布，该语言由Aaron Swartz和John Gruber共同设计开发.                                                                                                                                                                                           </p><ol><li>标题用法</li></ol><hr><pre><code>记得#后面加一个空格，最多支持6级标题# 一级标题## 二级标题### 三级标题###### 六级标题</code></pre><p>实际效果如下：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr><ol start="2"><li>段落用法<pre><code>段落前后有空行，空行是指没有文字内容。在段内强制换行的方法是使用两个及以上空格加  上回车即可</code></pre>效果如下<br>段落前后有空行，空行是指没有文字内容。在段内强制换行的方法是使用两个及以上空格加<br>上回车即可</li></ol><hr><ol start="3"><li>区块引用<pre><code>在段落的每行或只在第一行使用符号&gt;，还可以使用多个嵌套引用，如：&gt; 区块引用</code></pre>效果如下：<blockquote><p>区块引用</p></blockquote></li><li>代码区块<br>代码区块的建立是在每行上加4个空格或者一个制表符，也可以在```和```添加代码块<br>如下所示：</li></ol><pre><code>int main(){    printf(&quot;hello,world&quot;);}</code></pre><ol start="5"><li><p>强调<br>在强调内容之间加上*或者_,如：</p><pre><code>&gt;*斜体*,_斜体 _&gt;**粗体**,__粗体__&gt;***斜体加粗***</code></pre><p>效果如下：</p><blockquote><p><em>斜体</em>,_斜体 _<br><strong>粗体</strong>,<strong>粗体</strong><br><strong><em>斜体加粗</em></strong></p></blockquote></li><li><p>列表<br>使用.、+、或-标记无序列表，有序换成数字，记得加空格</p></li></ol><pre><code>. first. second. third1. first2. second3. third</code></pre><p>. first<br>. second<br>. third</p><ol><li>first</li><li>second</li><li>third</li></ol><hr><ol start="7"><li>分割线<br>分割线使用三个或以上*，也可以使用-和_.</li></ol><pre><code>***</code></pre><p>效果如下：</p><hr><ol start="8"><li>链接和图片</li></ol><pre><code>[百度的官网](https://www.baidu.com)![百度的图片](https://www.baidu.com/img/bd_logo1.png &quot;百度的log&quot;)</code></pre><p>效果<br><a href="https://www.baidu.com" target="_blank" rel="noopener">百度的官网</a><br><img src="https://www.baidu.com/img/bd_logo1.png" alt="百度的图片" title="百度的log"></p><ol start="9"><li>表格的使用<pre><code>左对齐|居中对齐|右对齐:--|:--:|--:1|2|31|2|3</code></pre></li></ol><table><thead><tr><th style="text-align:left">左对齐</th><th style="text-align:center">居中对齐</th><th style="text-align:right">右对齐</th></tr></thead><tbody><tr><td style="text-align:left">1</td><td style="text-align:center">2</td><td style="text-align:right">3</td></tr><tr><td style="text-align:left">1</td><td style="text-align:center">2</td><td style="text-align:right">3</td></tr></tbody></table><hr>]]></content>
       
       
       
